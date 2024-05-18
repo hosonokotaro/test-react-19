@@ -10,19 +10,23 @@
     "format": "prettier --write './src/**'"
   },
   "dependencies": {
-    "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18"
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta",
+    "next": "^14.3.0-canary.70",
+    "react": "^19.0.0-beta-26f2496093-20240514",
+    "react-dom": "^19.0.0-beta-26f2496093-20240514"
   },
   "devDependencies": {
     "@hosonokotaro/prettier-format": "^0.1.7",
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "prettier": "^3.2.5",
     "typescript": "^5"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta"
   },
   "prettier": "@hosonokotaro/prettier-format"
 }
